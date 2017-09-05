@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
+    <title>Elite Hospital Admin Template - Hospital admin dashboard web app kit</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-extension/css/bootstrap-extension.css" rel="stylesheet">
+    <!-- Menu CSS -->
+    <link href="sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
+    <link href="bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css" />
+    <!-- animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/footable.core.css" rel="stylesheet">
+                              
+    <!-- color CSS -->
+    <link href="css/colors/green.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="cssload-speeding-wheel"></div>
+    </div>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top m-b-0">
+            <div class="navbar-header"> <a class="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="ti-menu"></i></a>
+                <div class="top-left-part text-center"><a class="logo" href="index.html"><b><img width="90px" src="images/logo.jpg" alt="home" /></b><span class="hidden-xs"></span></a></div>
+                
+                <ul class="nav navbar-top-links navbar-left">
+                    <li>
+                        <a href="registration.html"><b class="hidden-xs">Register Property</b> </a>
+                    </li>
+                    <li>
+                        <a href="book-property.html.html"><b class="hidden-xs">Book Property</b> </a>
+                    </li>
+                    <li>
+                        <a href="sales-plan.html"><b class="hidden-xs">Sales Plan</b> </a>
+                    </li>
+                    <!-- /.dropdown -->
+                </ul>
+                <ul class="nav navbar-top-links navbar-right pull-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"> <img src="images/dummy-profile-pic.png" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">John Steave</b> </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="javascript:void(0)"><i class="ti-user"></i>  My Profile</a></li>
+                            <li><a href="javascript:void(0)"><i class="ti-settings"></i>  Account Setting</a></li>
+                            <li><a href="login.html"><i class="fa fa-power-off"></i>  Logout</a></li>
+                        </ul>
+                        <!-- /.dropdown-user -->
+                    </li>
+                    <!-- /.dropdown -->
+                </ul>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- /.navbar-top-links -->
+            <!-- /.navbar-static-side -->
+        </nav>
+        <!-- Left navbar-header -->
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse slimscrollsidebar">
+                <ul class="nav" id="side-menu">
+                    <li class="sidebar-search hidden-sm hidden-md hidden-lg">
+                        <!-- input-group -->
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control" placeholder="Search..."> <span class="input-group-btn">
+            <button class="btn btn-default" type="button"> <i class="fa fa-search"></i> </button>
+            </span> </div>
+                        <!-- /input-group -->
+                    </li>
+               
+                    
+                    <li> <a href="index.html" class="waves-effect"><i class="ti-dashboard p-r-10"></i> <span class="hide-menu">Dashboard</span></a> </li>
+                    <li> <a href="add-property.html" class="waves-effect"><i class="fa fa-map p-r-10"></i> <span class="hide-menu">Add Property</span></a> </li>
+                    <li> <a href="add-sales-person.html" class="waves-effect"><i class="fa fa-map p-r-10"></i> <span class="hide-menu">Add Sales Person</span></a> </li>
+                    <li> <a href=" walk-in-details.html" class="waves-effect"><i class="fa fa-map p-r-10"></i> <span class="hide-menu">Walk-in Details</span></a> </li>
+                    <li> <a href="cancel-property.html" class="waves-effect"><i class="fa fa-map p-r-10"></i> <span class="hide-menu">Cancel Property</span></a> </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Left navbar-header end -->
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row bg-title">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <h4 class="page-title">Add Property</h4> </div>
+                    
+                       
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="white-box">
+                            
+                            <form class="form-material form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-md-12" for="example-text">Project Name *
+                                    </label>
+                                    <div class="col-md-12">
+                                        <input type="text" id="example-text" name="example-text" class="form-control" placeholder="enter project name"> </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-12" for="example-text">Location
+                                    </label>
+                                    <div class="col-md-12">
+                                        <input type="text" id="example-text" name="example-text" class="form-control" placeholder="Enter City, Locality of Project"> </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-12">Address</label>
+                                    <div class="col-md-12">
+                                        <textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <table id="demo-foo-addrow" class="table table-bordered table-hover toggle-circle" data-page-size="7">
+                                    <thead>
+                                        <tr>
+                                            <th data-sort-ignore="true">Type</th>
+                                            <th data-sort-ignore="true">Phase</th>
+                                            <th data-sort-ignore="true">Units No</th>
+                                            <th data-sort-ignore="true" class="min-width">Units</th>
+                                            <th data-sort-ignore="true">Sales Person</th>
+                                            <th data-sort-ignore="true" class="min-width">Delete</th>
+                                        </tr>
+                                    </thead>
+                                    
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <select class="form-control">
+                                                    <option>Apartments</option>
+                                                    <option>Row House</option>
+                                                    <option>Villa</option>
+                                                    <option>Plots</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <select class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </td>
+                                            <td><input type="text" class="form-control" placeholder="Add units with ',' separated value"></td>
+                                            <td><input type="text" class="form-control" ></td>
+                                            <td><input type="text" class="form-control" placeholder="Search for Sales Person"> </td>
+                                            <td>
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline delete-row-btn" data-toggle="tooltip" data-original-title="Delete"><i class="ti-close" aria-hidden="true"></i></button>
+                                            </td>
+                                        </tr>
+                                        
+                                       
+                                    </tbody>
+                                    
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="6">
+                                                    <div class="text-right col-sm-12">
+                                                            <div class="form-group m-b-0">
+                                                                <a id="demo-btn-addrow" class="btn btn-add-row btn-sm"><i class="icon wb-plus" aria-hidden="true" type="button"></i>Add New Row</a>
+                                                            </div>
+                                                        </div>
+                                            </td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                                <button type="submit" class="btn btn-info waves-effect waves-light m-r-10">Submit</button>
+                                <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <!-- /.container-fluid -->
+            <footer class="footer text-center"> 2017 &copy; TVS Emerald All Rights Reserved</footer>
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bootstrap/dist/js/tether.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-extension/js/bootstrap-extension.min.js"></script>
+    <!-- Menu Plugin JavaScript -->
+    <script src="sidebar-nav/dist/sidebar-nav.min.js"></script>
+    <!--slimscroll JavaScript -->
+    <script src="js/jquery.slimscroll.js"></script>
+    <script src="js/footable.all.min.js"></script>
+    <script src="js/footable-init.js"></script>
+    <!-- Date Picker Plugin JavaScript -->
+    <script src="bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript">
+        // Date Picker
+        jQuery('.mydatepicker').datepicker();
+        // Add & Remove Row
+	var addrow = $('#demo-foo-addrow');
+	addrow.footable().on('click', '.delete-row-btn', function() {
+
+		//get the footable object
+		var footable = addrow.data('footable');
+
+		//get the row we are wanting to delete
+		var row = $(this).parents('tr:first');
+
+		//delete the row
+		footable.removeRow(row);
+	});
+	// Add Row Button
+	$('#demo-btn-addrow').click(function() {
+
+		//get the footable object
+		var footable = addrow.data('footable');
+		
+		//build up the row we are wanting to add
+		var newRow = '<tr><td><select class="form-control"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></td><td><select class="form-control"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></td><td><input type="text" class="form-control" placeholder="Add units with \',\' separated value"></td><input type="text" class="form-control" placeholder="Add units with \',\' separated value"><td><input type="text" class="form-control"></td><td><input type="text" class="form-control" placeholder="Search for sales person"></td><td><button type="button" class="btn btn-sm btn-icon btn-pure btn-outline delete-row-btn" data-toggle="tooltip" data-original-title="Delete"><i class="ti-close" aria-hidden="true"></i></button></td></tr>';
+
+		//add it
+		footable.appendRow(newRow);
+	});
+    </script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.min.js"></script>
+    
+</body>
+
+</html>
