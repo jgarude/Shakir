@@ -16748,3 +16748,14 @@ a.white-box{
 .waves-effect i{color:#fff}
 a.btn-add-row.btn:not([href]):not([tabindex]){color: #4d862f;border:1px solid #4d862f}
 a.btn-add-row:hover{background-color: #4d862f;color: #fff!important }
+.table-bordered tbody .btn {
+  padding: .8rem 1.2rem;
+}
+
+.table-bordered td .btn .fa-times-circle{
+  color:#e80000;
+  font-size: 16px;
+}
+.table-bordered tbody .btn.dropdown-toggle.form-control{
+  padding: .8rem 1.8rem;
+}

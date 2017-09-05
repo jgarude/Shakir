@@ -82,12 +82,12 @@
             </span> </div>
                         <!-- /input-group -->
                     </li>
-<li> <a href="index.html" class="waves-effect"><i class="ti-dashboard p-r-10"></i> <span class="hide-menu">Dashboard</span></a> </li>
-                    <li> <a href="add-property.html" class="waves-effect"><i class="fa fa-map-marker p-r-10"></i><span class="hide-menu">Add Property</span></a> </li>
-                    <li> <a href="add-sales-person.html" class="waves-effect"><i class="fa fa-user p-r-10"></i> <span class="hide-menu">Add Sales Person</span></a> </li>
-                    <li> <a href=" walk-in-details.html" class="waves-effect"><i class="fa fa-list-alt p-r-10"></i> <span class="hide-menu">Walk-in Details</span></a> </li>
-                    <li> <a href="cancel-property.html" class="waves-effect"><i class="fa fa-times-circle p-r-10"></i> <span class="hide-menu">Cancel Property</span></a> </li> 
-                    </ul>
+                    <li> <a href="index.html" class="waves-effect"><i class="ti-dashboard p-r-10"></i> <span class="hide-menu">Dashboard</span></a>                        </li>
+                    <li> <a href="add-property.html" class="waves-effect"><i class="fa fa-map-marker p-r-10"></i><span class="hide-menu">Add Property</span></a>                        </li>
+                    <li> <a href="add-sales-person.html" class="waves-effect"><i class="fa fa-user p-r-10"></i> <span class="hide-menu">Add Sales Person</span></a>                        </li>
+                    <li> <a href=" walk-in-details.html" class="waves-effect"><i class="fa fa-list-alt p-r-10"></i> <span class="hide-menu">Walk-in Details</span></a>                        </li>
+                    <li> <a href="cancel-property.html" class="waves-effect"><i class="fa fa-times-circle p-r-10"></i> <span class="hide-menu">Cancel Property</span></a>                        </li>
+                </ul>
             </div>
         </div>
         <!-- Left navbar-header end -->
@@ -96,7 +96,7 @@
             <div class="container-fluid">
                 <div class="row bg-title">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h4 class="page-title">Registration</h4>
+                        <h4 class="page-title">Register Property</h4>
                     </div>
 
 
@@ -112,7 +112,7 @@
                                 <label class="col-md-12" for="example-text">Date *
                                         </label>
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control mydatepicker" placeholder="mm/dd/yyyy">
+                                    <input type="text" data-date-format="dd/mm/yyyy" class="form-control mydatepicker" placeholder="dd/mm/yyyy">
                                 </div>
                             </div>
                             <div class="form-group">
@@ -135,8 +135,18 @@
                                     <textarea class="form-control" rows="3"></textarea>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label for="">Advance Amount Paid - Rs. <span>1,21,222</span></label>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="">Advance Amount Paid - Rs. <span>1,21,222</span></label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="">Remaining Amount - Rs. <span>11,21,222</span></label>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
                             </div>
                             <div class="form-group">
                                 <label for="">Amount to be pay</label>
@@ -147,12 +157,10 @@
                                     </label>
                                 <div class="col-md-12">
                                     <select class="form-control">
-                                                                <option>1</option>
-                                                                <option>2</option>
-                                                                <option>3</option>
-                                                                <option>4</option>
-                                                                <option>5</option>
-                                                            </select>
+                                        <option>GreenHills</option>
+                                        <option>Green Acres</option>
+                                        <option>Flourish</option>
+                                    </select>
                                 </div>
 
                             </div>
@@ -169,13 +177,16 @@
                                 </div>
 
                             </div>
-                            <div class="form-group">
-                                <label class="col-md-12" for="example-text">Phase
-                                        </label>
-                                <div class="col-md-12">
-                                    <input type="text" id="example-text" name="example-text" class="form-control" placeholder="Enter phase of selected project">                                    </div>
-                            </div>
+
                             <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label class="col-md-12" for="example-text">Phase
+                                                        </label>
+                                        <div class="col-md-12">
+                                            <input type="text" id="example-text" name="example-text" class="form-control" placeholder="Enter phase of selected project">                                            </div>
+                                    </div>
+                                </div>
                                 <div class="col-sm-4">
                                     <div class="form-group">
                                         <label class="col-md-12" for="example-text">Units</label>
@@ -192,15 +203,15 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
-                                    <div class="form-group">
-                                        <label class="col-md-12" for="example-text">Sales Person</label>
-                                        <div class="col-md-12">
-                                            <input type="text" id="example-text" name="example-text" class="form-control" placeholder="Enter the amount if you paid any">
-                                        </div>
-                                    </div>
-                                </div>
+
                                 <div class="clearfix"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-12" for="example-text">Sales Person</label>
+                                <div class="col-md-12">
+                                    <input type="text" id="example-text" name="example-text" class="form-control" placeholder="Enter the amount if you paid any">
+                                </div>
                             </div>
 
 

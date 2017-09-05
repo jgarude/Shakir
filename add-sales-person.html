@@ -50,7 +50,7 @@
                         <a href="registration.html"><b class="hidden-xs">Register Property</b> </a>
                     </li>
                     <li>
-                        <a href="book-property.html.html"><b class="hidden-xs">Book Property</b> </a>
+                        <a href="book-property.html"><b class="hidden-xs">Book Property</b> </a>
                     </li>
                     <li>
                         <a href="sales-plan.html"><b class="hidden-xs">Sales Plan</b> </a>
@@ -112,17 +112,17 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="white-box">
+                        <div class="white-box form-material">
                                 <table id="demo-foo-addrow" class="table table-bordered table-hover toggle-circle" data-page-size="7">
                                         <thead>
                                             <tr>
                                                 <th data-sort-ignore="true">Project</th>
                                                 <th data-sort-ignore="true">Type</th>
                                                 <th data-sort-ignore="true">Phase</th>
-                                                <th data-sort-ignore="true">Units No</th>
-                                                <th data-sort-ignore="true" class="min-width">Count</th>
-                                                <th data-sort-ignore="true">Sales Person</th>
-                                                <th data-sort-ignore="true" class="min-width">Delete</th>
+                                                <th data-sort-ignore="true" style="width: 15%">Units No</th>
+                                                <th data-sort-ignore="true" style="width: 12%">Count</th>
+                                                <th data-sort-ignore="true">Sales Person Name</th>
+                                                <th data-sort-ignore="true" class="min-width"></th>
                                             </tr>
                                         </thead>
                                         
@@ -130,9 +130,9 @@
                                             <tr>
                                                 <td>
                                                     <select class="selectpicker" multiple data-style="form-control">
-                                                        <option>Project 1</option>
-                                                        <option>Project 2</option>
-                                                        <option>Project 3</option>
+                                                        <option>GreenHills</option>
+                                                        <option>Green Acres</option>
+                                                        <option>Flourish</option>
                                                     </select>
                                                 </td>
                                                 <td>
@@ -152,11 +152,11 @@
                                                         <option>5</option>
                                                     </select>
                                                 </td>
-                                                <td><input type="text" class="form-control" placeholder="Add units with ',' separated value"></td>
+                                                <td><input type="text" class="form-control" placeholder="e.g A1, A2"></td>
                                                 <td><input type="text" class="form-control" ></td>
                                                 <td><input type="text" class="form-control" placeholder="Search for Sales Person"> </td>
                                                 <td>
-                                                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline delete-row-btn" data-toggle="tooltip" data-original-title="Delete"><i class="ti-close" aria-hidden="true"></i></button>
+                                                    <button type="button" class="btn btn-sm btn-icon btn-pure btn-outline delete-row-btn" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-times-circle"></i></button>
                                                 </td>
                                             </tr>
                                             
@@ -166,15 +166,17 @@
                                         <tfoot>
                                             <tr>
                                                 <td colspan="7">
-                                                        <!--<div class="text-right col-sm-12">
+                                                        <div class="text-right col-sm-12">
                                                                 <div class="form-group m-b-0">
-                                                                    <a id="demo-btn-addrow" class="btn btn-add-row btn-sm"><i class="icon wb-plus" aria-hidden="true" type="button"></i>Add New Row</a>
+                                                                    <a id="" class="btn btn-add-row btn-sm"><i class="icon wb-plus" aria-hidden="true" type="button"></i>Add New Row</a>
                                                                 </div>
-                                                            </div>-->
+                                                            </div>
                                                 </td>
                                             </tr>
                                         </tfoot>
                                     </table>
+                                    <button type="submit" class="btn btn-info waves-effect waves-light m-r-10">Submit</button>
+                                    <button type="submit" class="btn btn-inverse waves-effect waves-light">Cancel</button>
                         </div>
                     </div>
                 </div>
